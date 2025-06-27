@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikas Gupta - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="logo.png" alt="Logo">
+      <h1>VIKAS GUPTA</h1>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#qualification">Qualifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span id="hamburger-icon">&#9776;</span>
+    </div>
+
+  </nav>
+  <section id="home" class="home-container">
+    <div class="content">
+      <h1>Hi 👋,<br> I'm <span style="color:rgb(255, 98, 0)">Vikas,</span><br>a Frontend Developer. </h1>
+      <div class="bg">
+        <img src="bg (2).jpg" alt="bg">
+      </div>
+    </div>
+
+    <!-- 🧑‍💼 About Section -->
+    <section id="about" class="about-section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>
+          Hi, I'm Vikas Gupta — a passionate frontend developer with a knack for creating clean, responsive user
+          interfaces using HTML, CSS, JavaScript, and modern tools like React and Tailwind CSS. Alongside my love for
+          web development, I'm an Electronics & Communication (ECE) engineering student at ABES Engineering College with
+          a strong interest in building smart embedded systems and IoT-based solutions.
+        </p>
+        <p>
+          I enjoy bridging the gap between software and hardware, turning innovative ideas into real, functional
+          projects that solve real-world problems.
+        </p>
+      </div>
+    </section>
+
+    <!-- 🧠 Skills Section 
+    <section id="skill" class="skills-section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">Tailwind CSS</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">C/C++</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Arduino</div>
+        <div class="skill-card">IoT</div>
+        <div class="skill-card">Embedded Systems</div>
+      </div>
+    </section> -->
+    <section id="qualification" class="qualification-wrapper">
+      <h2 class="section-title">Qualifications</h2>
+      <div class="tab-container">
+        <div class="skill-section">
+          <button class="tablinks" onmouseover="openCity(event, 'skills')">Skills</button>
+          <button class="tablinks" onmouseover="openCity(event, 'certificates')">Certificates</button>
+          <button class="tablinks" onmouseover="openCity(event, 'training')">Training</button>
+        </div>
+
+        <div id="skills" class="tabcontent">
+          <h3>Key Skills:</h3>
+          <ul>
+            <li>Python Programming</li>
+            <li>Web Development (HTML, CSS, JS)</li>
+            <li>Data Analysis & Visualization</li>
+            <li>IoT Development</li>
+            <li>Arduino Programming</li>
+            <li>MATLAB</li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+
+        <div id="certificates" class="tabcontent">
+          <h3>Certificates:</h3>
+          <ul>
+            <li>Front End Development – Great Learning</li>
+            <li>CSS Tutorial – Great Learning</li>
+            <li>3D Printing – ABES AICTE IDEA LAB</li>
+            <li>WROS Workshop – INurture Foundation</li>
+          </ul>
+        </div>
+
+        <div id="training" class="tabcontent">
+          <h3>Embedded Systems & IoT Training</h3>
+          <ul>
+            <li><strong>Institution:</strong> ABES Engineering College</li>
+            <li>Acquired hands-on experience in embedded systems programming and IoT development.</li>
+            <li>Designed and implemented IoT solutions using sensors and Arduino.</li>
+            <li>Developed real-time applications for automation and wireless communication.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Projects</h2>
+
+      <!-- 🧠 CSE Projects -->
+      <div class="project-category">
+        <h3 class="category-title">CSE Projects</h3>
+        <div class="projects-grid">
+          <div class="project-card" style="--delay: 0.1s">
+            <h3 class="project-title" style="color: darkgoldenrod">To-Do App</h3>
+            <p class="project-description">Task manager built with HTML, JS, and localStorage.</p>
+            <a href="https://github.com/vkg06" target="_blank" class="project-link">View on GitHub</a>
+          </div>
+          <div class="project-card" style="--delay: 0.2s">
+            <h3 class="project-title" style="color: darkgoldenrod">Portfolio Website</h3>
+            <p class="project-description">A responsive portfolio built with HTML, CSS, and JS.</p>
+            <a href="https://github.com/vkg06" target="_blank" class="project-link">View on GitHub</a>
+          </div>
+          <div class="project-card" style="--delay: 0.2s">
+            <h3 class="project-title" style="color: darkgoldenrod">Tic-Tac-Toe</h3>
+            <p class="project-description">A responsive portfolio built with HTML, CSS, and JS.</p>
+            <a href="https://github.com/vkg06" target="_blank" class="project-link">View on GitHub</a>
+          </div>
+          <div class="project-card" style="--delay: 0.2s">
+            <h3 class="project-title" style="color: darkgoldenrod">E-commerce Clone</h3>
+            <p class="project-description">A mock shopping site using HTML, CSS, and JS.</p>
+            <a href="https://github.com/vkg06" target="_blank" class="project-link">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ⚙️ ECE Projects -->
+      <div class="project-category">
+        <h3 class="category-title">ECE Projects</h3>
+        <div class="projects-grid">
+          <div class="project-card" style="--delay: 0.3s">
+            <h3 class="project-title" style="color: darkgoldenrod;">Fire alarm system using IR sensor :</h3>
+            <p class="project-description">Designed and implemented a fire detection system using an IR sensor to detect
+              flame
+              presence. Integrated with an alarm mechanism for real-time alerts, ensuring prompt fire
+              hazard detection.</p>
+            <a href="#" class="project-link">Learn More</a>
+          </div>
+          <div class="project-card" style="--delay: 0.4s">
+            <h3 class="project-title" style="color: darkgoldenrod">Parking Module Using Ultrasonic Sensor :</h3>
+            <p class="project-description">Developed an automated parking system using ultrasonic sensors to detect
+              vehicle presence
+              and display real-time slot availability. Integrated microcontroller-based processing for
+              efficient space utilization and enhanced user convenience</p>
+            <a href="#" class="project-link">Learn More</a>
+          </div>
+          <div class="project-card" style="--delay: 0.4s">
+            <h3 class="project-title" style="color: darkgoldenrod">Driver Anti Sleep Device :</h3>
+            <p class="project-description">A real-time drowsiness detection system that monitors driver alertness using
+              eye-tracking and
+              alerts them through alarms or vibrations, reducing accident risks.</p>
+            <a href="#" class="project-link">Learn More</a>
+          </div>
+          <div class="project-card" style="--delay: 0.4s">
+            <h3 class="project-title" style="color: darkgoldenrod">IOT Traffic Signal Monitoring & Controller System :</h3>
+            <p class="project-description">IoT-based Traffic Signal Monitoring & Control system that enables real-time
+              traffic
+              management using sensors and cloud connectivity to optimize signal timings and reduce
+              congestion.</p>
+            <a href="#" class="project-link">Learn More</a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+  </section>
+
+
+  </div>
+  </section>
+
+  </div>
+
+  <!-- conatct section -->
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:vg437474@gmail.com">vg437474@gmail.com</a></p>
+    <nav class="navdown">
+      <div class="nav-center">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </nav>
+  </section>
+  <footer class="footer">
+    © 2025 Vikas. All rights reserved.
+  </footer>
+
+
+
+
+</body>
+
+</html>
