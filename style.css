@@ -200,6 +200,9 @@ nav.navbar {
   background-color: #191a1e;
   min-height: 70vh;
   margin-top: 100px;
+  opacity: 1;
+  transform: translateY(0);
+  animation: fade-in 0.25s ease-in;
 }
 
 .about-content {
